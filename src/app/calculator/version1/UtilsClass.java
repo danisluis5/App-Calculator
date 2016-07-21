@@ -13,4 +13,7 @@ public class UtilsClass {
         int y = fm.stringWidth(" ");
         frame.setTitle(String.format("%"+z/y+"s","")+title);
     }
+    public int getY(int x,int y,int z){
+        return x-(y-z);
+    }
 }
